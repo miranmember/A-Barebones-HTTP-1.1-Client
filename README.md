@@ -4,6 +4,9 @@ Implements the GET method and follows the basics of the HTTP/1.1 specification.
 
 ## Usage
 + retrieve_url, which takes a url (as a str) as its only argument, and uses the HTTP protocol to retrieve and return the body's bytes.
++ Tested On: 'http://www.example.com',
+    'http://accc.uic.edu/contact',
+    'http://i.imgur.com/fyxDric.jpg'
 
 ## Assumptions
 + requests has been installed using
