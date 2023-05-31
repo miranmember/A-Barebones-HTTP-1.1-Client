@@ -21,6 +21,6 @@ Implements the GET method and follows the basics of the HTTP/1.1 specification.
 + No redirects.
 
 ## Output
-+ ```python python3 HTTP1.py http://www.example.com```
++ ```python3 HTTP1.py http://www.example.com```
 + Return bytes when receiving a 200 OK response from the server.
 + If program cannot retrieve the resource correctly, retrieve_url will return None.
