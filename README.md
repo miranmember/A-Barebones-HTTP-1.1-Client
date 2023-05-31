@@ -6,6 +6,10 @@ Implements the GET method and follows the basics of the HTTP/1.1 specification.
 + retrieve_url, which takes a url (as a str) as its only argument, and uses the HTTP protocol to retrieve and return the body's bytes.
 
 ## Assumptions
++ requests has been installed using
+  ```pip
+  pip install requests
+  ```
 + Assume that the URL will not include a fragment, query string, or authentication credentials.
 + No redirects.
 
